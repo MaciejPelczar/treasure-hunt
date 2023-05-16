@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment1"
+    android:background="@color/tloMain1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingBottom="300dp"
+        android:shadowColor="#61544D"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="15"
+        android:text="Treasure hunt"
+        android:textColor="@color/textLarge"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/buttonStartGame"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/tloButton"
+        android:gravity="center"
+        android:shadowColor="#65564E"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="15"
+        android:text="Start"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:cornerRadius="10dp" />
+
+</FrameLayout>
